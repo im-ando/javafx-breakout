@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.Group?>
+<Group xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+       fx:controller="jp.imagemagic.breakout.FieldController"
+       onMouseMoved="#mouseMove" onMouseClicked="#mouseClick">
+    <children>
+        <Canvas fx:id="canvas" focusTraversable="true" width="400" height="600"/>
+    </children>
+</Group>
